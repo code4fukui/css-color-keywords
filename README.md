@@ -11,10 +11,14 @@ This list contains all CSS color keywords specified in:
 
 [See MDN for an overview of all colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords).
 
+## Data
+
+- [colors.json](https://code4fukui.github.io/css-color-keywords-es/)
+
 ## Usage
 
 ```js
-import { cssColorKeywords } from "https://code4fukui.github.io/css-color-keywords-es/cssColorKeywords.js';
+import { cssColorKeywords } from "https://code4fukui.github.io/css-color-keywords-es/cssColorKeywords.js";
 
 cssColorKeywords.black // #000000
 cssColorKeywords.orange // #ffa500
@@ -34,6 +38,7 @@ This list aims to always include all CSS color keywords. If new keywords are
 specified, only the *minor* version will be bumped.
 
 - v1.0.0 (2017-01-20): Initial release
+- v1.0.1 (2022-10-11): ES module version
 
 ## License
 
