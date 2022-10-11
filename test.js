@@ -1,7 +1,7 @@
-'use strict'
+import * as t from "https://deno.land/std/testing/asserts.ts";
+import { cssColorKeywords } from "./cssColorKeywords.js";
 
-const assert = require('assert')
-const cssColorKeywords = require('.')
-
-assert.strictEqual(cssColorKeywords.black, '#000000')
-assert.strictEqual(cssColorKeywords.orange, '#ffa500')
+Deno.test("simple", () => {
+  t.assertEquals(cssColorKeywords.black, '#000000');
+  t.assertEquals(cssColorKeywords.orange, '#ffa500');  
+});

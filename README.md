@@ -1,4 +1,4 @@
-# css-color-keywords
+# css-color-keywords-es
 
 > A list of all CSS color keywords.
 
@@ -11,16 +11,10 @@ This list contains all CSS color keywords specified in:
 
 [See MDN for an overview of all colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords).
 
-## Installation
-
-```sh
-$ npm install css-color-keywords --save
-```
-
 ## Usage
 
 ```js
-const cssColorKeywords = require('css-color-keywords')
+import { cssColorKeywords } from "https://code4fukui.github.io/css-color-keywords-es/cssColorKeywords.js';
 
 cssColorKeywords.black // #000000
 cssColorKeywords.orange // #ffa500
